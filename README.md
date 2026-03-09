@@ -11,13 +11,8 @@ To design and simulate a Non-Inverting Amplifier using μA741 in Proteus Design 
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
-(Draw neatly in record OR paste Proteus circuit screenshot)
-Pin Configuration:
-•	Pin 3 → Input (Non-inverting)
-•	Pin 2 → Feedback network
-•	Pin 6 → Output
-•	Pin 7 → +15V
-•	Pin 4 → −15V
+<img width="1151" height="674" alt="Screenshot 2026-01-23 092901" src="https://github.com/user-attachments/assets/6cc0616a-caf0-4a99-9b30-e0d6a6d579ba" />
+
 ## Theory
 A Non-Inverting Amplifier is a closed-loop amplifier configuration in which the input is applied to the non-inverting terminal (+) of the op-amp.
 The output signal is amplified and remains in phase with the input signal.
@@ -31,8 +26,11 @@ The output signal is amplified and remains in phase with the input signal.
 7.	Run simulation.
 8.	Observe input and output waveforms.
 ## Waveform
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/cba16601-71c3-4938-9530-330ae3134fc0" />
+
 ## Tabulation
-S.No	Vin (V)	Theoretical Gain	Theoretical Vout (V)	Practical Vout (V)
+<img width="702" height="861" alt="image" src="https://github.com/user-attachments/assets/5c5d9689-c62f-4b53-997e-e5d3f5c57a61" />
+
 ## Result
 The Non-Inverting Amplifier using μA741 Op-Amp was designed and simulated successfully.
 The voltage gain obtained is approximately 11.
@@ -42,9 +40,8 @@ The output waveform is in phase with the input waveform.
 •	Output is amplified without phase reversal.
 •	Practical values are close to theoretical values.
 ## Viva Questions
-1.	What is a Non-Inverting Amplifier?
-2.	What is the gain formula?
-3.	Why is output in phase?
-4.	What happens if Rf increases?
-5.	What is the input impedance of non-inverting amplifier?
-
+1.What is a Non-Inverting Amplifier? ANS : A non-inverting amplifier is an op-amp circuit in which the input signal is applied to the non-inverting (+) terminal and the output voltage is amplified without phase inversion.
+2.What is the gain formula? ANS : Av​=1+R1​/Rf​​
+3.Why is output in phase? ANS : Because the input signal is applied to the non-inverting terminal, the output follows the same polarity as the input.
+4.What happens if Rf increases? ANS : The voltage gain of the amplifier increases.
+5.What is the input impedance of non-inverting amplifier? ANS : Very high (ideally infinite).
